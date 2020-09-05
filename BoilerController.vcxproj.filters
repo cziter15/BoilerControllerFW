@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="App">
+      <UniqueIdentifier>{28c5116a-0327-485f-8a1d-3190aa723774}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Config">
+      <UniqueIdentifier>{2033ec3d-6747-40fa-8cef-17664ff6e5dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libs">
+      <UniqueIdentifier>{fbab139a-bf2a-4a4b-81a3-843f5b05fc5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Libs\MqttHandler">
+      <UniqueIdentifier>{aaf0269c-cca4-407d-a918-5536c7310c2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libs\LCD">
+      <UniqueIdentifier>{c378b744-f348-45fd-918e-3b03c217aab2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Config\Config.h">
+      <Filter>Config</Filter>
+    </ClInclude>
+    <ClInclude Include="board.h" />
+    <ClInclude Include="Libs\LCD\LiquidCrystal_I2C.h">
+      <Filter>Libs\LCD</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\MqttHandler\MqttHandler.h">
+      <Filter>Libs\MqttHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="App\BoilerController.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="App\BoilerControllerApp.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="__vm\.BoilerController.vsarduino.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Config\Config.cpp">
+      <Filter>Config</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\LCD\LiquidCrystal_I2C.cpp">
+      <Filter>Libs\LCD</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\MqttHandler\MqttHandler.cpp">
+      <Filter>Libs\MqttHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="App\BoilerController.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="App\BoilerControllerApp.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BoilerControllerFW.ino" />
+  </ItemGroup>
+</Project>
